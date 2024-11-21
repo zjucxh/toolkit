@@ -1,0 +1,9 @@
+# Training hyper parameters
+num_epoch: !!int 300
+batch_size: !!int 128 
+lr: !!float 1.0e-5
+
+device: !!str cuda
+
+# Dataset
+dataset_dir: !!str /home/cxh/mnt/nas/Documents/dataset/mnist/
